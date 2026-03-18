@@ -1,5 +1,5 @@
 ## Modular Linked List Manager in C
-A robust, production-style implementation of a Singly Linked List in C. This project demonstrates advanced C concepts including manual memory management, pointer manipulation, and data encapsulation.
+A robust, production-style implementation of a Doubly Linked List in C. This project demonstrates advanced C concepts including manual memory management, pointer manipulation, and data encapsulation.
 
 ## Engineering Highlights
  - Encapsulated Architecture: Instead of global variables, it uses a LinkedList wrapper struct to manage the head pointer and size attribute as a single entity.
@@ -16,9 +16,9 @@ A robust, production-style implementation of a Singly Linked List in C. This pro
 
 ## Project Structure
 ```html
-		|-SinglyLinkedList
-			|-linkedlist.h			-- The interface: contains struct definitions, enums, and function prototypes.
-			|-linkedlistimpl.c      -- The logic: contains the implementation of the linked list operations.
+		|-DoublyLinkedList
+			|-doublylinkedlist.h			-- The interface: contains struct definitions, enums, and function prototypes.
+			|-doublylinkedlist.c			-- The logic: contains the implementation of the linked list operations.
 			|-main.c				-- The driver: a CLI menu-driven program to interact with the list.
 ```
 
@@ -35,6 +35,6 @@ A robust, production-style implementation of a Singly Linked List in C. This pro
 |Operations | Time Complexity | Space Complexity |
 |---|---|---|
 | Insert at Head| O(1)|	O(1)|
-| Insert at Tail| O(n) | O(1) |
+| Insert at Tail| O(1) | O(1) |
 | Search		| O(n) | O(1) |
 | Get Size		| O(1) | O(1) |
